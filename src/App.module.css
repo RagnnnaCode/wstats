@@ -1,0 +1,50 @@
+body{
+  background-color: rgb(241, 241, 241);
+  overflow: hidden;
+}
+.information{
+  width: 750px;
+  display: grid;
+  grid-template-columns: 700px;
+  margin: 0 auto;
+}
+.weatherImage{
+  margin-left: 150px;
+  margin-top: 30px;
+  transform: rotate(5deg);
+  animation: 3s linear 0s infinite alternate move_eye;
+}
+.Back{
+  background-image: url("https://cdn.igromania.ru/mnt/news/4/7/3/3/7/e/85633/8558209a35985aa7_1920xH.jpg");
+  background-repeat: no-repeat;
+}
+
+.Back2{
+  background-image: url("https://i.pinimg.com/originals/e2/56/5d/e2565d3c71fbcc894bbf1dd41e6df5ca.png");
+  background-repeat: no-repeat;
+}
+
+.Back3{
+  background-image: url("https://cdnb.artstation.com/p/assets/images/images/020/917/717/large/mumin-keser-thecloud.jpg?1569681857");
+  background-repeat: no-repeat;
+}
+
+.Back4{
+  background-image: url("https://p4.wallpaperbetter.com/wallpaper/256/36/873/oycue41-246370-building-city-wallpaper-00e9174e24dd309fe31298edccb678b0.jpg");
+  background-repeat: no-repeat;
+}
+
+.Back5{
+  background-image: url("https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1573177664197&di=36ae9a8a343c958f70121e8d4202a9e9&imgtype=0&src=http%3A%2F%2Fi1.hdslb.com%2Fbfs%2Farchive%2F16889bcd7c9647e647314f9d4a720c4dd6ddaf13.jpg");
+  background-repeat: no-repeat;
+}
+
+.Back6{
+  background-image: url("https://cdn4.iconfinder.com/data/icons/smiley-vol-3/48/134-512.png");
+}
+
+.Back7{
+  background-image: url("https://images7.alphacoders.com/835/thumb-1920-835389.png");
+  background-repeat: no-repeat;
+}
+@keyframes move_eye {from {transform: rotate(1deg)} to {transform: rotate(9deg)}}

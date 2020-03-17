@@ -1,0 +1,151 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+.Header{
+    width: 1925px;
+    height: 150px;
+    background-color: rgb(0, 0, 0);
+    opacity: 80%;
+    border-bottom: 4px solid rgb(30, 0, 54);
+}
+.CoreInfo{
+    width: 800px;
+    height: 520px;
+    margin: 0 auto;
+    margin-top: 20px;
+    border: 1px solid white;
+    border-radius: 17px;
+    background-color: rgb(127, 211, 250);
+    display: grid;
+    grid-template-columns:1fr 1fr;
+    opacity: 80%;
+}
+
+
+.rain{
+    height: 30px;
+    width: 30px;
+    position: relative;
+}
+.rain2{
+    height: 30px;
+    width: 30px;
+    position: relative;
+}
+.RainAll{
+    width: 200px;
+    height: 100px;
+    
+}
+.RainWithSun{
+    width: 200px;
+    height: 100px;
+}
+
+.Header p{
+    color:yellow;
+    text-align: center;
+    padding: 40px 0 0 0;
+    margin: 0 0px 0 0;
+    font-size: 70px;
+    font-weight: bold;
+    font-family: Brush Script MT;
+}
+
+.inputs{
+    
+    border-radius: 15px;
+    margin: 0 0 10px 0;
+    width: 380px;
+    padding: 50px 0 0 0px;
+}
+.input{
+    width: 350px;
+    padding: 50px 20px 0 40px;
+}
+
+.Block{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+
+.valueText{
+    border-bottom: 2px solid aqua;
+    margin: 10px 0 10px 0;
+    width: 380px;
+    padding: 50px 0 0 0px;
+}
+
+.valueT{
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+    color: black;
+}
+.wrapperInfo{
+    display: grid;
+    height: 490px;
+    grid-template-rows: 1fr;
+    margin: 10px 10px 10px 10px;
+    width: 380px;
+    padding: 50px 0 0 0px;
+    border-right: 2px solid aqua;
+}
+
+.CurrentW{
+    text-align: center;
+    font-weight: bold;
+    font-size: 35px;
+    color: rgb(0, 0, 0);
+}
+
+.temp{
+    font-size: 20px;
+    font-weight: 500;
+    color: rgb(10, 49, 56);
+    margin: 40px 0 0 25px;
+}
+.Map{
+    padding: 40px 0 0 0;
+    width: 300px;
+    height: 300px;
+}
+.RainWithSun img{
+    height: 450px;
+    width: 630px;
+}
+
+.Forecast{
+    border-top:6px solid rgb(218, 255, 10);
+    width: 1925px;
+    height: 157px;
+    margin-top: 140px;
+    background-color: rgb(0, 0, 0);
+}
+
+.IntoForecast{
+    display: grid;
+    grid-template-rows: 1fr 11fr;
+    width: 1470px;
+    height: 150px;
+    margin: 0 auto;
+}
+
+.title{
+   background-color: rgb(0, 0, 0);
+}
+
+.ForecastInfo p{
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.advice{
+    font-size: 15px;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+}
